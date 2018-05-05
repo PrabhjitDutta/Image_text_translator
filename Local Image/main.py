@@ -1,14 +1,12 @@
 import pytesseract
 import requests
-from io import BytesIO
 from PIL import Image
 
 
 def main():
 
-    URL = input("Enter the url of the image: ")
-    r = requests.get(URL)
-    image = Image.open(BytesIO(r.content))
+    address = input("Enter the address of the image file: ")
+    image = Image.open(address)
 
     text = pytesseract.image_to_string(image)
 
