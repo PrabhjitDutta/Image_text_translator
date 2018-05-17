@@ -1,6 +1,6 @@
 # Image_text_translator
 
-Image text translator buit with the tesserect's python implemetation pytesseract and Yandex translator API.
+Image text translator built with the tesserect's python implemetation pytesseract and Yandex translator API.
 
 ## Prerequisites
 
